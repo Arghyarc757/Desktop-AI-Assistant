@@ -78,7 +78,7 @@ if __name__ == '__main__':
                 print("AI Response:", response)
                 say(response)
             else:
-                say("Sorry, I could not understand your question.")
+                say("Sorry, I could not understand your question")
 
         
         if "please exit".lower() in query.lower():
